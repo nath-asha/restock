@@ -1,5 +1,3 @@
-// frontend/App.js
-
 import React from 'react';
 import Dashboard from './components/Dashboard';
 import Register from './components/Register';
