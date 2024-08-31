@@ -1,6 +1,5 @@
 const axios = require('axios');
 
-// Perform a quality check on an inventory item
 exports.checkQuality = async (req, res) => {
     try {
         const { daysUntilExpiration, salesVelocity, seasonalityIndex } = req.body;

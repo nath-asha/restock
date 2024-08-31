@@ -1,6 +1,5 @@
 const Inventory = require('../models/Inventory');
 
-// Add a new inventory item
 exports.addInventoryItem = async (req, res) => {
     try {
         const newItem = new Inventory(req.body);
@@ -11,7 +10,6 @@ exports.addInventoryItem = async (req, res) => {
     }
 };
 
-// Get all inventory items
 exports.getAllInventoryItems = async (req, res) => {
     try {
         const items = await Inventory.find();
@@ -21,7 +19,6 @@ exports.getAllInventoryItems = async (req, res) => {
     }
 };
 
-// Get a specific inventory item by ID
 exports.getInventoryItemById = async (req, res) => {
     try {
         const item = await Inventory.findById(req.params.id);
@@ -34,7 +31,7 @@ exports.getInventoryItemById = async (req, res) => {
     }
 };
 
-// Update an inventory item
+
 exports.updateInventoryItem = async (req, res) => {
     try {
         const updatedItem = await Inventory.findByIdAndUpdate(req.params.id, req.body, { new: true });
