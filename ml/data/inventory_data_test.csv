@@ -1,0 +1,6 @@
+product_id,product_name,purchase_date,expiration_date,quantity
+1,Milk,2024-08-01,2024-08-10,50
+2,Bread,2024-08-03,2024-08-15,30
+3,Cheese,2024-08-02,2024-08-25,20
+4,Apples,2024-08-01,2024-08-20,100
+5,Yogurt,2024-08-05,2024-08-14,40
