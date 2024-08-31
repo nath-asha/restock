@@ -1,8 +1,8 @@
 import React from 'react';
-import Dashboard from './components/Dashboard';
-import Register from './components/Register';
-import InventoryList from './components/InventoryList';
-import QualityAlert from './components/QualityAlert';
+import Dashboard from '../components/Dashboard';
+import Register from '.,/components/Register';
+import InventoryList from '../components/InventoryList';
+import QualityAlert from '../components/QualityAlert';
 
 import './App.css';
 
